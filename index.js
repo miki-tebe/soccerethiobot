@@ -4,7 +4,7 @@ const { ljust, rjust } = require('justify-text');
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const PORT = process.env.PORT || 3000;
-const URL = process.env.URL || "";
+const URL = process.env.URL || "https://git.heroku.com/soccerethiobot.git";
 
 const bot = new Telegraf(BOT_TOKEN);
 
