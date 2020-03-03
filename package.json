@@ -1,0 +1,16 @@
+{
+  "name": "soccer_ethiopia_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "justify-text": "^1.1.0",
+    "soccer-ethiopia-api": "^0.3.2",
+    "telegraf": "^3.36.0"
+  }
+}
