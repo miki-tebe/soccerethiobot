@@ -44,8 +44,8 @@ bot.command('week', (ctx) => {
 const PRODUCTION = true;
 
 if (PRODUCTION) {
-    bot.telegram.setWebhook(`${URL}/bot${BOT_TOKEN}`);
-    bot.startWebhook(`/bot${BOT_TOKEN}`, null, PORT);
+    bot.telegram.setWebhook(`${URL}/${BOT_TOKEN}`);
+    bot.startWebhook(`/${BOT_TOKEN}`, null, PORT);
 } else {
     bot.launch()
         .then(() => console.log("Bot Launched"));
